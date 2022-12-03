@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.sql.SQLIntegrityConstraintViolationException;
 
 /**
- * @author Xin
+ * @author xin_77
  * @date 2022/10/9 13:14
  * 全局异常处理
  */

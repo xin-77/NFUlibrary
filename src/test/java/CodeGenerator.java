@@ -34,12 +34,11 @@ public class CodeGenerator {
                     builder.parent("com.nfu") // 设置父包名
                             .moduleName("library") // 设置父包模块名
                             .pathInfo(Collections.singletonMap(OutputFile.xml, "D:\\code\\bkcode\\nfulibrary\\src\\main\\resources\\mapper"))// 设置mapperXml生成路径
-                            .entity("entity")
-                            .service("service")
-                            .controller("controller");
+                            .entity("entity");
+
                 })
                 .strategyConfig(builder -> {
-                    builder.addInclude("borrow,category,employee,reader,rule") // 设置需要生成的表名
+                    builder.addInclude("borrow") // 设置需要生成的表名
                             ; // 设置过滤表前缀
 
                 })

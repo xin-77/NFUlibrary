@@ -7,9 +7,6 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  *
-
- * @author Xin
- * @date 2022/10/9 13:47
  * 配置分页插件
  */
 

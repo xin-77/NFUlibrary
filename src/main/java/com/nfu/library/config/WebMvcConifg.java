@@ -19,10 +19,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.List;
 
-/**
- * @author Xin
- * @date 2022/10/9 8:57
- */
 
 @Configuration
 @Slf4j
